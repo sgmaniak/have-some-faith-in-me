@@ -1,45 +1,44 @@
-# electron-quick-start
+# Have Some Faith in Me
 
-**Clone and run for a quick way to see Electron in action.**
+**by Sgmaniak**
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+I was bored so I wanted to try releasing a song on github. For those 2 or 3 people that might actually check it out, I hope you enjoy.
 
 **Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
 
-A basic Electron application needs just these files:
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
+- Written and performed by Sgmaniak
+- Trumpet by Emmet Haden
+- Mixed by Sgmaniak and Allan Fine
+- Mastered by Allan Fine
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone this bad boy you'll need [Git](https://git-scm.com)
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/sgmaniak/have-some-faith-in-me.git
 # Go into the repository
 cd electron-quick-start
+```
+
+If you\'re on a Mac, just click on that dmg file to check out the app...
+
+LOL otherwise, you can build the application
+
+```bash
 # Install dependencies
 npm install
 # Run the app
 npm start
+# build me up nice and good
+npm run dist
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+Yikes, that should build it for windows or linux!
 
-## Resources for Learning Electron
+Don't forget to like comment and star this repo
+:weary:	:smiling_imp: :boom: :triumph: :ok_hand: :dizzy_face: :sweat_drops:
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
-
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[Daddy Buffalo](www.daddybuffalo.com) 4 lyfe
