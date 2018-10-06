@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        @font-face {
+          font-family: 'Antro_Vectra';
+          src: url('./public/fonts/Antro_Vectra_Bolder.otf');
+        }
+        body {
+          overflow-x: hidden;
+          background-color: seashell;
+          font-family: 'Antro_Vectra';
+        }
+        ul {
+          list-style-type: none;
+          margin: auto;
+          width: 70%;
+          padding: 2px;
+        }
+        li {
+          display: inline;
+          padding: 16px;
+        }
+        a {
+          text-decoration: none;
+        }
+        audio {
+          margin: 0 auto;
+          display: table;
+          cursor: pointer;
+        }
+        button {
+          background-color: #635147;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+        #photo {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+          height: auto;
+          border: 30px #fffaf7;
+          border-style:ridge;
+          user-drag: none; 
+          user-select: none;
+          -moz-user-select: none;
+          -webkit-user-drag: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+        }
+        #song_name {
+          text-align: center;
+        }
+    </style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Have Some Faith in Me</title>
+  </head>
+  <body>
+    <h1>
+      <pre>
+      ____                     _      __  
+     / __/__ ___ _  ___ ____  (_)__ _/ /__
+    _\ \/ _ `/  ' \/ _ `/ _ \/ / _ `/  '_/
+   /___/\_, /_/_/_/\_,_/_//_/_/\_,_/_/\_\ 
+       /___/                                                                 
+      </pre>
+    </h1>
+    <ul class="links">
+      <li>
+        <a href="https://www.facebook.com/sgmaniakk">
+          <img src="./public/icons/if_1-Facebook_3225908.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/sgmaniakk">
+          <img src="./public/icons/if_2-Ig_3225920.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/sgmaniakk">
+          <img src="./public/icons/if_30-Twitter_3225921.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/artist/2Ss5LYWIh21HOyGCh8ueg3?si=jQSh6xYVRPa4Mybi71Zk2A">
+          <img src="./public/icons/if_25-Spotify_3225925.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.soundcloud.com/sgmaniak">
+          <img src="./public/icons/if_15-Soundcloud_3225932.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCI7g9Jq4HA9slxdwENESJ8w">
+          <img src="./public/icons/if_8-Youtube_3225910.svg" />
+        </a>
+      </li>
+    </ul>
+    <img id="photo" src="./public/images/red_jacket.jpg"/>
+    <h1 id="song_name">Have Some Faith in Me</h1>
+    <audio controls>
+      <source src="./public/audio.mp3" type="audio/mpeg">
+    </audio>
+    <button id="close_buttton" onclick="{self.close()}">Ok I'm done</button>
+    <script>
+      
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

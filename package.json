@@ -1,0 +1,56 @@
+{
+  "name": "Just-click-on-this-i",
+  "version": "6.6.6",
+  "description": "Who am I? I feel like I was designed for some... purpose...",
+  "main": "main.js",
+  "author": "Sgmaniak",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "build": {
+    "appId": "havesomefaith",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "squirrel"
+    }
+  },
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-builder": "^20.28.4"
+  },
+  "dependencies": {
+    "cryptiles": "^4.1.2"
+  }
+}
