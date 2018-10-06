@@ -41,4 +41,4 @@ Yikes, that should build it for windows or linux!
 Don't forget to like comment and star this repo
 :weary:	:smiling_imp: :boom: :triumph: :ok_hand: :dizzy_face: :sweat_drops:
 
-[Daddy Buffalo](www.daddybuffalo.com) 4 lyfe
+[Daddy Buffalo](https://daddybuffalo.com/) 4 lyfe
