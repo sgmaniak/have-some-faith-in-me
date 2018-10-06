@@ -4,7 +4,7 @@
 
 I was bored so I wanted to try releasing a song on github. For those 2 or 3 people that might actually check it out, I hope you enjoy.
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
+**made it with [Electron](https://electronjs.org)
 
 
 - Written and performed by Sgmaniak
